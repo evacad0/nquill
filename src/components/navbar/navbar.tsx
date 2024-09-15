@@ -12,6 +12,7 @@ export default component$(() => {
                     NeuraQuill
                 </div>
             </div>
+            
             <div class="flex-grow">
                 
             </div>

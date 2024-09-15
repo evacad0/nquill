@@ -25,3 +25,15 @@
 .intern{
     font-family: "Inter";
 }
+
+@keyframes bhop {
+    0%, 100% {
+        transform: translateY(-25px);
+    }
+    50% {
+        transform: translateY(25px);
+    }
+}
+.bhop {
+    animation: bhop 4s infinite;
+}

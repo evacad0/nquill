@@ -2,38 +2,34 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Navbar from "~/components/navbar/navbar";
 import { LuInfo } from "@qwikest/icons/lucide";
+import { Link } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
-    <main>
+    <main class="scroll-smooth">
 
       <div class="flex flex-row justify-center items-center gap-4 grot my-4 sm:hidden">
         <span class="text-[2em]"><LuInfo /></span>
-        Please switch to Desktop for a better experience. 
+        Please switch to Desktop for a better <br/> experience. 
       </div>
 
       <Navbar />
 
-      <div class="flex flex-row justify-center items-center h-[50vh] gap-12 lg:w-[100vw] lg:h-[100vh]">
-        
-        <div class="outfi text-2xl lg:text-[4em] flex flex-col gap-6">
-          Your Next B2B AI Pipeline is here
-          <span class="text-[0.4em]">
-            Automating workflows using Customised AI/LLM Solutions
-          </span>
+      <div class="mt-20 md:mt-40 mx-4 md:mx-40 lg:mx-60 xl:mx-80 || flex flex-col justify-center items-left gap-5">
+        <div class="grot text-[2em] md:text-[3em]">
+          Empowering Businesses with&nbsp;
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-sky-500 to-emerald-400 inline-block">AI-driven Automation.</span>   
         </div>
 
-        <div class="">
+        <div class="outf text-[1em] md:text-[2em]">We clearly have a thing for AI lmao.</div>
 
+        <div class="text-[0.75em] md:text-[1.4em] grot flex flex-row gap-4 justify-left items-center">
+          <Link href="#" class="rounded-lg px-6 py-2 border border-[#0f62fe]">Learn More</Link>
+          <Link href="/meet" class="rounded-lg px-6 py-2 text-white bg-[#0f62fe]">Schedule a Meeting</Link>
         </div>
-
-        <div class="">
-
-        </div>
-
       </div>
 
-      <div class="flex flex-col gap-4 justify-center items-center">  
+      {/* <div class="flex flex-col gap-4 justify-center items-center">  
         <div class="text-[2.5em] rale">
           Excel Sheets Telemetry 
         </div>
@@ -42,15 +38,7 @@ export default component$(() => {
           <source src="/excel.mov" />
           Your Browser Couldn't Support the Video
         </video>
-      </div>
-
-      <div class="flex flex-col justify-center items-center h-[50vh] lg:h-[100vh] w-full">
-
-      </div>
-
-      <div id="connect" class="h-[50vh] sm:h-[100vh] text-xl grot flex flex-row justify-center items-center">
-        Connect
-      </div>
+      </div> */}
 
     </main>
   );

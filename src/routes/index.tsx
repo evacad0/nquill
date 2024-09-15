@@ -4,6 +4,7 @@ import Navbar from "~/components/navbar/navbar";
 import { LuInfo } from "@qwikest/icons/lucide";
 import { Link } from "@builder.io/qwik-city";
 import Reel from "~/components/reel/reel";
+import Models from "~/components/models/models";
 
 export default component$(() => {
   return (
@@ -25,9 +26,9 @@ export default component$(() => {
 
           <div class="outf text-[1em] md:text-[2em]">We clearly have a thing for AI lmao.</div>
 
-          <div class="text-[0.75em] md:text-[1.4em] grot flex flex-row gap-4 justify-left items-center">
-            <Link href="#" class="rounded-lg px-6 py-2 border border-[#0f62fe]">Learn More</Link>
-            <Link href="/meet" class="rounded-lg px-6 py-2 text-white bg-[#0f62fe]">Schedule a Meeting</Link>
+          <div class="text-[0.75em] md:text-[1em] grot flex flex-row gap-4 justify-left items-center">
+            <Link href="#" class="shadow-md rounded-lg px-6 py-2 border border-[#0f62fe]">Learn More</Link>
+            <Link href="/meet" class="shadow-md rounded-lg px-6 py-2 text-white bg-[#0f62fe]">Schedule a Meeting</Link>
           </div>
         </div>
 
@@ -35,6 +36,8 @@ export default component$(() => {
           <img class="w-[250px]" src="robot.png" alt="AI Robot" />
         </div>
       </div>
+
+      <Models />
 
       <Reel />
 

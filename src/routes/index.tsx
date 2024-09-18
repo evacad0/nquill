@@ -89,7 +89,7 @@ export default component$(() => {
                 </div>
                 <div>
                     <label class="intern" for="">Query</label><br/>
-                    <input required class="grot outline-none border-b-2 border-b-[#0f62fe] focus:border-b-indigo-600" placeholder="AI Pipelines" id="q" name="q" type="text" />
+                    <input required class="xl:w-[200%] grot outline-none border-b-2 border-b-[#0f62fe] focus:border-b-indigo-600" placeholder="AI Pipelines" id="q" name="q" type="text" />
                 </div>
                 <button type="submit" class="text-white outf px-4 py-2 rounded-xl bg-[#0f62fe] shadow-md">Let's Talk</button>
         </Form>

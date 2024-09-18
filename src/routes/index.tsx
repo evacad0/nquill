@@ -1,7 +1,7 @@
 import { component$, useSignal } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Navbar from "~/components/navbar/navbar";
-import { LuBadgeCheck, LuCheckCheck, LuCheckCircle, LuCheckCircle2, LuInfo } from "@qwikest/icons/lucide";
+import { LuCheckCircle, LuInfo } from "@qwikest/icons/lucide";
 import { Link } from "@builder.io/qwik-city";
 import Reel from "~/components/reel/reel";
 import Models from "~/components/models/models";

@@ -12,7 +12,7 @@ import { LuMailPlus } from "@qwikest/icons/lucide";
 import { createClient } from "@supabase/supabase-js";
 
 
-export const sendCreds = routeAction$(async (date) => {
+export const useCreds = routeAction$(async (date) => {
   const sbUrl = "https://vxmheghlrgsfaivacwce.supabase.co";
   const sbKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ4bWhlZ2hscmdzZmFpdmFjd2NlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjY1MDEzMDYsImV4cCI6MjA0MjA3NzMwNn0.sYBvBDNpZxhXM7DswcDqi6EiDEPY5Nk8QRscFm7L9TQ";
   const db = createClient(sbUrl, sbKey);
@@ -32,7 +32,7 @@ export const sendCreds = routeAction$(async (date) => {
 })
 
 export default component$(() => {
-  const action = sendCreds();
+  const action = useCreds();
   const check = useSignal(false);
   const frm = useSignal<HTMLFormElement>();
 

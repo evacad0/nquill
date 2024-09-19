@@ -15,7 +15,7 @@ export default component$(() => {
             </div>
             <div class="flex-grow"></div>
             <div class="flex flex-row justify-center items-center gap-4">
-                <Link><img class="w-[1.75em]" src="/linkedin.svg" alt="LinkedIn" /></Link>
+                <Link href="https://www.linkedin.com/company/neuralquill/"><img class="w-[1.75em]" src="/linkedin.svg" alt="LinkedIn" /></Link>
                 <Link><img class="w-[1.5em]" src="/x.svg" alt="Twitter-X" /></Link>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import { component$, useSignal } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Navbar from "~/components/navbar/navbar";
-import { LuCheckCircle, LuInfo } from "@qwikest/icons/lucide";
+import { LuCheckCircle } from "@qwikest/icons/lucide";
 import { Link } from "@builder.io/qwik-city";
 import Reel from "~/components/reel/reel";
 import Models from "~/components/models/models";
@@ -39,10 +39,10 @@ export default component$(() => {
   return (
     <main class="scroll-smooth">
 
-      <div class="flex flex-row justify-center items-center gap-4 grot my-4 sm:hidden">
+      {/* <div class="flex flex-row justify-center items-center gap-4 grot my-4 sm:hidden">
         <span class="text-[2em]"><LuInfo /></span>
         Please switch to Desktop for a better <br/> experience. 
-      </div>
+      </div> */}
 
       <Navbar />
 

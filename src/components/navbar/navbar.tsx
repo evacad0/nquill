@@ -18,8 +18,8 @@ export default component$(() => {
                 
             </div>
             <div class="hidden md:flex flex-row gap-6 justify-center items-center mr-3">
-                <Link class="outf">Demo</Link>
-                <Link class="outf">Pricing</Link>
+                {/* <Link class="outf">Demo</Link>
+                <Link class="outf">Pricing</Link> */}
                 <Link href="#cta" class="bg-white px-4 py-2 rounded-xl shadow-sm outf">Contact Us</Link>
             </div>
             <div class="flex md:hidden mr-4">
@@ -27,10 +27,10 @@ export default component$(() => {
                     <LuMenu />
                 </button>
                 <div class={"flex flex-col justify-center gap-3 w-40 p-4 top-20 -translate-x-[110px] " + ((menuEnable.value) ? "absolute shadow-md rounded-2xl" : "hidden")}>
-                     <Link class="outf">Demo</Link>
-                     <hr/> 
-                     <Link class="outf">Pricing</Link>
-                     <hr/>
+                     {/* <Link class="outf">Demo</Link> */}
+                     {/* <hr/>  */}
+                     {/* <Link class="outf">Pricing</Link> */}
+                     {/* <hr/> */}
                      <Link href="#cta" class="outf">Contact Us</Link>
                 </div>  
             </div>

@@ -7,7 +7,7 @@ export default component$(() => {
                 <img class="w-[5em] md:w-[7em]" src="claude.svg" alt="Claude-AI" />
                 <img class="w-[5em] md:w-[7em]" src="openai.svg" alt="OpenAI" />
                 <img class="w-[5em] md:w-[7em]" src="meta.svg" alt="Meta-AI" />
-                <img class="w-[4.75em] md:w-[6.5em] -translate-y-1" src="gemini.svg" alt="Google-Gemini" />
+                <img class="w-[4.75em] md:w-[6.5em] -translate-y-[6px]" src="gemini.svg" alt="Google-Gemini" />
             </div>
         </section>
     )

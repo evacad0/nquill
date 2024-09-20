@@ -4,7 +4,7 @@ export default component$(() => {
     return (
         <section class="mx-10 h-[50vh] md:h-[100vh] flex flex-col items-center">
 
-            <svg id="reel" class="hidden md:block absolute" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+            <svg class="hidden md:block absolute" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
                 <path d="M  20 80 L  20 200 M  20 200 L 300 320" stroke="black" stroke-width="1" fill="transparent"/>
                 <path d="M 220 80 L 220 200 M 220 200 L 300 320" stroke="black" stroke-width="1" fill="transparent"/>
                 <path d="M 390 80 L 390 200 M 390 200 L 300 320" stroke="black" stroke-width="1" fill="transparent"/>

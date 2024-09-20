@@ -35,7 +35,7 @@ export default component$(() => {
   const check = useSignal(false);
 
   return (
-    <main class="scroll-smooth">
+    <main>
 
       {/* <div class="flex flex-row justify-center items-center gap-4 grot my-4 sm:hidden">
         <span class="text-[2em]"><LuInfo /></span>
@@ -118,7 +118,7 @@ export const head: DocumentHead = {
     },
     {
       name: "keywords",
-      content: "AI, LLM, Pipeline, Claude, Gemini, OpenAI, ChatGPT, Automation, Mistral, Llama",
+      content: "AI, LLM, Pipeline, Claude, Gemini, OpenAI, ChatGPT, Automation, Mistral, Llama, Workflow",
     },
     {
       name: "author",

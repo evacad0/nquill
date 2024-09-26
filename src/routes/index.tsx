@@ -1,15 +1,14 @@
 import { component$, useSignal } from "@builder.io/qwik";
+import { Link, Form, routeAction$ } from "@builder.io/qwik-city";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { createClient } from "@supabase/supabase-js";
 import Navbar from "~/components/navbar/navbar";
-import { LuCheckCircle } from "@qwikest/icons/lucide";
-import { Link } from "@builder.io/qwik-city";
 import Reel from "~/components/reel/reel";
 import Models from "~/components/models/models";
 import Sample from "~/components/sample/sample";
 import Footer from "~/components/footer/footer";
-import { Form, routeAction$ } from "@builder.io/qwik-city";
-import { LuMailPlus } from "@qwikest/icons/lucide";
-import { createClient } from "@supabase/supabase-js";
+import { LuMailPlus, LuCheckCircle } from "@qwikest/icons/lucide";
+
 
 
 export const useCreds = routeAction$(async (cta) => {

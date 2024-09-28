@@ -21,7 +21,7 @@ export default component$(() => {
                         Authentication Required
                     </div>
                     <Form action={action} class="mt-8 flex flex-row gap-4 justify-center items-center">
-                        <input id="code" name="code" class="text-center text-gray-500 w-40 bg-white px-8 py-3 bg-opacity-40 rounded-xl outline-none" placeholder="" type="number" />
+                        <input autofocus id="code" name="code" class="text-center text-gray-500 w-40 bg-white px-8 py-3 rounded-xl outline-none" placeholder="" type="number" />
                         <button onClick$={() => {attempts.value = true}} class="px-4 py-3 rounded-lg text-white bg-gray-600">
                             <LuUnlock />
                         </button>
@@ -56,9 +56,15 @@ export default component$(() => {
                 </div>
 
                 <div class="flex flex-wrap gap-20 justify-center items-center ">
-                    <Link href="#" class="shadow-lg h-60 w-96 rounded-xl bg-purple-300"></Link>
-                    <Link href="#" class="shadow-lg h-60 w-96 rounded-xl bg-purple-300"></Link>
-                    <Link href="#" class="shadow-lg h-60 w-96 rounded-xl bg-purple-300"></Link>
+                    <Link href="https://tutoru-rev-1.vercel.app" class="shadow-lg rounded-xl border-4 border-purple-300">
+                        <img class="w-[400px] hover:w-[420px] rounded-xl" src="/tutoru/rev-01.png" alt="" />
+                    </Link>
+                    <Link href="#" class="text-[0.5em] grot flex justify-center items-center shadow-lg h-[208px] w-[400px] rounded-xl border-4 border-purple-300">
+                        Updating Soon
+                    </Link>
+                    <Link href="#" class="text-[0.5em] grot flex justify-center items-center shadow-lg h-[208px] w-[400px] rounded-xl border-4 border-purple-300">
+                        Updating Soon
+                    </Link>
                 </div>
             </div>
         </main>
